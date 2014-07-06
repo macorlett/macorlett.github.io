@@ -143,6 +143,7 @@ form .button{
 	margin: 0;
 }
 input[type="text"],input[type="email"],textarea{
+	width:100%;
 	max-width: 540px;
 	height: 60px;
 	border-radius: 2px;

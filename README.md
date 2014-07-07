@@ -11,6 +11,7 @@ the following is a list of tasks yet to be completed for this site.
 
 - [ ] Design and build the CV or Resume page
 - [ ] Design and build a template page for case studies
-- [ ] Add social icons to the footer
+- [x] Add social icons to the footer
+- [ ] Design custom social icons
 - [ ] Create and upload a favicon
 - [ ] Optimize the html, css and javescript

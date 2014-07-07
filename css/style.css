@@ -76,9 +76,6 @@ input.sub-item,textarea.sub-item{
 	-moz-flex: 0 1 540px;
 	flex: 0 1 540px;
 }
-.footer-item{
-	padding: 0px 20px 0px 20px;
-}
 .button:hover{
 	color: #666;
 	border-color: #666;

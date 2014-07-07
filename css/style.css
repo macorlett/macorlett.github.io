@@ -58,10 +58,18 @@ h4{
 	padding: 0px 20px 50px 20px;
 }
 .sub-item{
+	-webkit-flex: 0 1 140px;
+	-moz-flex: 0 1 140px;
 	flex: 0 1 140px;
 	padding: 0px 50px 40px 50px;
 	font-weight: 300;
 	font-size: 1.5rem;
+}
+.footer-item{
+	-webkit-flex: 0 1 780px;
+	-moz-flex: 0 1 780px;
+	flex: 0 1 780px;
+	padding: 30px 20px 30px 20px;
 }
 input.sub-item,textarea.sub-item{
 	-webkit-flex: 0 1 540px;

@@ -177,6 +177,13 @@ textarea,textarea.sub-item{
 	height: 160px;
 	padding: 20px 30px 20px 30px;
 }
+footer a:hover{
+	color: #fff;
+}
+footer a{
+	text-decoration: none;
+	color: #55acee;
+}
 
 @media only screen and (max-width:600px){
 	h2{

@@ -183,6 +183,7 @@ footer a:hover{
 footer a{
 	text-decoration: none;
 	color: #55acee;
+	margin: 0px 20px 0px 20px;
 }
 
 @media only screen and (max-width:600px){

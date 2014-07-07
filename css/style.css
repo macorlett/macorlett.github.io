@@ -70,6 +70,7 @@ h4{
 	-moz-flex: 0 1 780px;
 	flex: 0 1 780px;
 	padding: 30px 20px 30px 20px;
+	color: #55acee;
 }
 input.sub-item,textarea.sub-item{
 	-webkit-flex: 0 1 540px;

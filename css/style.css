@@ -138,15 +138,11 @@ h4{
 }
 form{
 	margin-top: 40px;
-	width:100%;
-	text-align: center;
 }
 form .button{
 	margin: 0;
 }
 input[type="text"],input[type="email"],textarea{
-	width:100%;
-	max-width: 540px;
 	height: 60px;
 	border-radius: 2px;
 	border-width: 2px;

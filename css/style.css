@@ -162,7 +162,7 @@ input[type="text"],input[type="email"],textarea{
 	font-size: 1.25rem;
 	font-weight: 400;
 }
-textarea{
+textarea,textarea.sub-item{
 	height: 160px;
 	padding: 20px 30px 20px 30px;
 }

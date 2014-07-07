@@ -168,3 +168,12 @@ textarea,textarea.sub-item{
 	height: 160px;
 	padding: 20px 30px 20px 30px;
 }
+
+@media only screen and (max-device-width:600px){
+	h2{
+		font-size:4rem;
+	}
+	h3{
+		font-size:2rem;
+	}
+}

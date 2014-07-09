@@ -1,5 +1,6 @@
 ---
-title: Case studies
+title: Making things better
+description: "with pixels, pens and bow-tie Fridays"
 layout: default
 ---
 

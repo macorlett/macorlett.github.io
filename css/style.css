@@ -199,12 +199,16 @@ footer a{
 	padding-left: 50px;
 	padding-right: 50px;
 }
-#resume-main-content h2,#resume-main-content h3,#resume-main-content h4{
+#resume-main-content h3,#resume-main-content h4{
 	font-family: 'Gentium Book Basic', serif;
 }
 #resume-main-content h2{
 	font-weight: 400;
 	font-size: 4rem;
+}
+#resume-main-content h3{
+	padding: 0;
+	margin: 0;
 }
 
 @media only screen and (max-width:600px){

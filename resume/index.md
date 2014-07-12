@@ -5,6 +5,13 @@ page_id: resume-header
 description: My current work history
 ---
 
+###Michael Corlett
+####Email: macorlett@gmail.com
+####Mobile: +64 210 221 9249
+
+###Skill sets
+UI/UX design, Responsive web design, identity and branding, Illustration, Animation.
+
 ##Employment history
 ###Zing Design
 ####Current 2012-2014

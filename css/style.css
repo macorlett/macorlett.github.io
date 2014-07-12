@@ -202,6 +202,10 @@ footer a{
 #resume-main-content h2,#resume-main-content h3,#resume-main-content h4{
 	font-family: 'Gentium Book Basic', serif;
 }
+#resume-main-content h2{
+	font-weight: 400;
+	font-size: 4rem;
+}
 
 @media only screen and (max-width:600px){
 	h2{

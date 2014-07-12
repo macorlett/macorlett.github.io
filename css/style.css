@@ -195,6 +195,13 @@ footer a{
 	border-color: #dddddd;
 
 }
+#main-resume-content .block-item{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#main-resume-content h2,h3,h4{
+	font-family: 'Gentium Book Basic', serif;
+}
 
 @media only screen and (max-width:600px){
 	h2{

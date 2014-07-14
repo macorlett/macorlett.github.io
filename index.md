@@ -1,7 +1,10 @@
 ---
 title: Making things better
 description: "with pixels, pens and bow-tie Fridays"
+
 layout: default
+nav-link: true
+nav-home: true
 ---
 
 <h3>Case studies of my work are on the way...</h3>

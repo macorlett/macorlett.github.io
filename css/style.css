@@ -2,11 +2,15 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
 @import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700);
 
+@media screen{
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	color: #222;
 	font-size: 16px;
+}
+a{
+	cursor: pointer;
 }
 h1,h2{
 	font-weight: 300;
@@ -26,6 +30,47 @@ h4{
 	line-height: 1.5;
 	padding: 0;
 	margin: 0;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0px 20px 0px 20px;
+}
+li{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+nav,nav.black{
+	background: #222;
+}
+nav.blue{
+	background: #55acee;
+}
+nav li a:hover,nav.blue.headroom--not-top li a:hover{
+	color: #55acee;
+}
+nav li a,nav.blue.headroom--not-top li a{
+	color: #999;
+	text-decoration: none;
+	font-weight: 400;
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+nav.blue.headroom--top li a:hover,nav.blue li a:hover{
+	color: #fff;
+}
+nav.blue.headroom--top li a,nav.blue li a{
+	color: rgba(255,255,255,0.5);
+}
+nav li.current-page a,nav.blue.headroom--not-top li.current-page a{
+	color: #ccc;
+}
+nav.blue.headroom--top li.current-page a, nav.blue li.current-page a{
+	color: #fff;
 }
 #home-header{
 	min-height:500px;
@@ -54,6 +99,12 @@ h4{
 	-webkit-flex: 0 1 780px;
 	-moz-flex: 0 1 780px;
 	flex: 0 1 780px;
+}
+.block-nav{
+	padding: 0;
+	-webkit-flex: 0 1 820px;
+	-moz-flex: 0 1 820px;
+	flex: 0 1 820px;
 }
 .header-item{
 	padding: 0px 20px 50px 20px;
@@ -198,26 +249,28 @@ footer a{
 #resume-main-content .block-item{
 	padding-left: 50px;
 	padding-right: 50px;
-	-webkit-flex: 0 1 750px;
-	-moz-flex: 0 1 750px;
-	flex: 0 1 750px;
+	-webkit-flex: 0 1 720px;
+	-moz-flex: 0 1 720px;
+	flex: 0 1 720px;
 }
-#resume-main-content h3,#resume-main-content h4{
-	font-family: 'Gentium Book Basic', serif;
-}
+
 #resume-main-content h2{
 	font-weight: 400;
 	font-size: 4rem;
 	padding-bottom: 30px;
 }
 #resume-main-content h3{
+	font-size: 2rem;
 	padding: 0;
 	margin: 0;
 }
+#resume-main-content h4{
+	font-size: 1.25rem;
+}
 .headroom{
-	background: #55acee;
 	width: 100%;
-	height: 70px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -226,10 +279,21 @@ footer a{
 	box-shadow: 0 2px rgba(0,0,0,0.1);
 }
 .headroom--not-top{
-	-webkit-transition: all .25s ease-in-out;
-	-moz-transition: all .25s ease-in-out;
-	-o-transition: all .25s ease-in-out;
-	transition: all .25s ease-in-out;
+	-webkit-transition: all .45s ease-in-out;
+	-moz-transition: all .45s ease-in-out;
+	-o-transition: all .45s ease-in-out;
+	transition: all .45s ease-in-out;
+}
+nav.blue.headroom--top{
+	background: #55acee;
+
+	-webkit-transition: background .45s ease-in-out;
+	-moz-transition: background .45s ease-in-out;
+	-o-transition: background .45s ease-in-out;
+	transition: background .45s ease-in-out;
+}
+nav.blue.headroom--not-top{
+	background: #222;
 }
 .headroom--pinned{
 	-webkit-transform: translateY(0);
@@ -247,4 +311,5 @@ footer a{
 	h3{
 		font-size:2rem;
 	}
+}
 }

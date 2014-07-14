@@ -9,9 +9,11 @@ So this website is basically a way for me to achive a few things. First it's the
 ###This still to be done.
 the following is a list of tasks yet to be completed for this site.
 
-- [ ] Design and build the CV or Resume page
+-- [ ] Design and build the CV or Resume page
 - [ ] Design and build a template page for case studies
-- [x] Add social icons to the footer
+-- [x] Add social icons to the footer
 - [ ] Design custom social icons
 - [ ] Create and upload a favicon
 - [ ] Optimize the html, css and javescript
+- [x] add navigation bar
+- [x] add scrollit.js and headroom.js

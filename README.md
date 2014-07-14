@@ -9,10 +9,12 @@ So this website is basically a way for me to achive a few things. First it's the
 ###This still to be done.
 the following is a list of tasks yet to be completed for this site.
 
--- [ ] Design and build the CV or Resume page
+- [ ] Design and build a 'thank page/popup' for contact form
 - [ ] Design and build a template page for case studies
--- [x] Add social icons to the footer
+- [ ] write and build first case study
 - [ ] Design custom social icons
+- [ ] Add social icons to navigation bar
+- [ ] Add logo icon to navigation bar
 - [ ] Create and upload a favicon
 - [ ] Optimize the html, css and javescript
 - [x] add navigation bar

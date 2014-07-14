@@ -9,7 +9,8 @@ So this website is basically a way for me to achive a few things. First it's the
 ###This still to be done.
 the following is a list of tasks yet to be completed for this site.
 
-- [ ] Design and build a 'thank page/popup' for contact form
+- [ ] Add a 'thank' page/popup for contact form
+- [ ] Add a custom 404 page
 - [ ] Design and build a template page for case studies
 - [ ] write and build first case study
 - [ ] Design custom social icons

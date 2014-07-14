@@ -48,7 +48,7 @@ nav.blue{
 	background: #55acee;
 }
 nav li a:hover,nav.blue.headroom--not-top li a:hover{
-	color: #55acee;
+	color: #fff;
 }
 nav li a,nav.blue.headroom--not-top li a{
 	color: #999;

@@ -43,6 +43,8 @@ li{
 }
 nav,nav.black{
 	background: #222;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 nav.blue{
 	background: #55acee;
@@ -269,9 +271,6 @@ footer a{
 }
 .headroom{
 	width: 100%;
-	min-height: 22px;
-	padding-top: 20px;
-	padding-bottom: 20px;
 	position: fixed;
 	top: 0;
 	right: 0;

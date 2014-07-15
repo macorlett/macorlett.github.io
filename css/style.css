@@ -269,6 +269,7 @@ footer a{
 }
 .headroom{
 	width: 100%;
+	min-height: 22px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	position: fixed;

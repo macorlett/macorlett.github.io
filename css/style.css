@@ -277,8 +277,7 @@ footer a{
 	left: 0;
 	z-index: 100;
 	box-shadow: 0 2px rgba(0,0,0,0.1);
-}
-.headroom--not-top{
+
 	-webkit-transition: all .45s ease-in-out;
 	-moz-transition: all .45s ease-in-out;
 	-o-transition: all .45s ease-in-out;
@@ -286,11 +285,6 @@ footer a{
 }
 nav.blue.headroom--top{
 	background: #55acee;
-
-	-webkit-transition: background .45s ease-in-out;
-	-moz-transition: background .45s ease-in-out;
-	-o-transition: background .45s ease-in-out;
-	transition: background .45s ease-in-out;
 }
 nav.blue.headroom--not-top{
 	background: #222;

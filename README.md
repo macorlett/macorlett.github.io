@@ -13,7 +13,7 @@ the following is a list of tasks yet to be completed for this site.
 - [ ] Add a custom 404 page
 - [ ] Design and build a template page for case studies
 - [ ] write and build first case study
-- [ ] Design custom social icons
+- [x] Design custom social icons
 - [ ] Add social icons to navigation bar
 - [ ] Add logo icon to navigation bar
 - [ ] Create and upload a favicon

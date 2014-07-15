@@ -42,9 +42,17 @@ li{
 	padding-right: 20px;
 }
 nav,nav.black{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 100;
+	
 	background: #222;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	box-shadow: 0 2px rgba(0,0,0,0.1);
 }
 nav.blue{
 	background: #55acee;
@@ -270,14 +278,6 @@ footer a{
 	font-size: 1.25rem;
 }
 .headroom{
-	width: 100%;
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
-	z-index: 100;
-	box-shadow: 0 2px rgba(0,0,0,0.1);
-
 	-webkit-transition: all .45s ease-in-out;
 	-moz-transition: all .45s ease-in-out;
 	-o-transition: all .45s ease-in-out;

@@ -306,6 +306,11 @@ nav .nav-icons a:hover,nav.blue.headroom--not-top a:hover{
 }
 nav .nav-icons a,nav.blue.headroom--not-top a{
 	color: #999;
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
 }
 nav.blue .nav-icons a:hover,nav.blue.headroom--top .nav-icons a:hover{
 	color: #fff;

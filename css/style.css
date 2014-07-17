@@ -34,7 +34,8 @@ h4{
 ul{
 	list-style: none;
 	margin: 0;
-	padding: 0px 20px 0px 20px;
+	padding: 4px 20px 0px 20px;
+	display: inline-block;
 }
 li{
 	display: inline-block;
@@ -297,6 +298,22 @@ nav.blue.headroom--not-top{
 	-webkit-transform: translateY(-110%);
 	transform: translateY(-110%);
 }
+.nav-icons{
+	float: right;
+}
+nav .nav-icons a:hover,nav.blue.headroom--not-top a:hover{
+	color: #fff;
+}
+nav .nav-icons a,nav.blue.headroom--not-top a{
+	color: #999;
+}
+nav.blue .nav-icons a:hover,nav.blue.headroom--top .nav-icons a:hover{
+	color: #fff;
+}
+nav.blue .nav-icons a,nav.blue.headroom--top .nav-icons a{
+	color: rgba(255,255,255,0.5);
+}
+
 
 @media only screen and (max-width:600px){
 	h2{

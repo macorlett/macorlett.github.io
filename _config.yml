@@ -1,8 +1,12 @@
 name: "michaelcorlett.me"
 decription: "Michael Corlett's online portfolio"
 
+twitter: "https://twitter.com/macorlett"
+github: "https://github.com/macorlett"
+dribbble: "https://dribbble.com/macorlett"
+
 # url: "http://michaelcorlett.me"
-url: http://localhost:4000
+url: "http://localhost:4000"
 port: 4000
 
 paginate: 10

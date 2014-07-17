@@ -36,6 +36,7 @@ ul{
 	margin: 0;
 	padding: 4px 20px 0px 20px;
 	display: inline-block;
+	float: left;
 }
 li{
 	display: inline-block;
@@ -306,6 +307,11 @@ nav .nav-icons a:hover,nav.blue.headroom--not-top a:hover{
 }
 nav .nav-icons a,nav.blue.headroom--not-top a{
 	color: #999;
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
 }
 nav.blue .nav-icons a:hover,nav.blue.headroom--top .nav-icons a:hover{
 	color: #fff;
@@ -313,7 +319,6 @@ nav.blue .nav-icons a:hover,nav.blue.headroom--top .nav-icons a:hover{
 nav.blue .nav-icons a,nav.blue.headroom--top .nav-icons a{
 	color: rgba(255,255,255,0.5);
 }
-
 
 @media only screen and (max-width:600px){
 	h2{

@@ -34,7 +34,7 @@ h4{
 ul{
 	list-style: none;
 	margin: 0;
-	padding: 4px 20px 0px 20px;
+	padding: 4px 0px 0px 20px;
 	display: inline-block;
 	float: left;
 }
@@ -301,7 +301,6 @@ nav.blue.headroom--not-top{
 }
 .nav-icons{
 	float: right;
-	padding-right: 20px;
 }
 nav .nav-icons a:hover,nav.blue.headroom--not-top a:hover{
 	color: #fff;

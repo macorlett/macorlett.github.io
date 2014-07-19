@@ -327,5 +327,11 @@ nav.blue .nav-icons a,nav.blue.headroom--top .nav-icons a{
 	h3{
 		font-size:2rem;
 	}
+	#nav-desktop ul{
+		display: none;
+	}
+	.nav-icons{
+		float: none;
+	}
 }
 }

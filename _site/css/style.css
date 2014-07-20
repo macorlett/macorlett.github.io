@@ -11,6 +11,8 @@ body{
 }
 a{
 	cursor: pointer;
+	color: #55acee;
+	text-decoration: none;
 }
 h1,h2{
 	font-weight: 300;
@@ -111,6 +113,9 @@ nav.blue.headroom--top li.current-page a, nav.blue li.current-page a{
 	-webkit-flex: 0 1 780px;
 	-moz-flex: 0 1 780px;
 	flex: 0 1 780px;
+}
+.block-item.text-left p{
+	text-align: left;
 }
 .block-nav{
 	padding: 0;

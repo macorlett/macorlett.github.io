@@ -14,9 +14,8 @@ the following is a list of tasks yet to be completed for this site.
 - [ ] Design and build a template page for case studies
 - [ ] write and build first case study
 - [x] Design custom social icons
-- [ ] Add social icons to navigation bar
-- [ ] Add logo icon to navigation bar
-- [ ] Make pages more mobile friendly
+- [x] Add social icons to navigation bar
+- [x] Make pages more mobile friendly
 - [ ] Create and upload a favicon
 - [ ] Optimize the html, css and javescript
 - [x] add navigation bar

@@ -12,6 +12,6 @@ I'm currently working at <a href="http://zingdesign.com" target="_blank">Zing De
 have been for the last 2 years as a web designer and lead illustrator. During my time there
 I've taken on various projects for a number of clients including RaboDirect, Spark, Raygun.io and STQRY.
 
-I plan to using this website as my ever evloving portfolio and place to share any future
-projects I endver to take on during my free time. So if you are interested in what I'm doing
+I plan to using this website as my ever evolving portfolio and place to share any future
+projects I endeavor to take on during my free time. So if you are interested in what I'm doing
 feel free to check me out on <a href="https://twitter.com/macorlett" target="_blank">Twitter</a> or <a href="https://dribbble.com/macorlett" target="_blank">Dribbble</a> :)

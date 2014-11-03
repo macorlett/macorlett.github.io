@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>michaelcorlett.me</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="/css/style.css" rel="stylesheet">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+
+		<nav id="home-nav" class=" blue flex-content center">
+			<div id="nav-desktop" class="block-nav">
+			<ul>
+				<li><a data-scroll-nav="0">About</a></li>
+				<li><a data-scroll-nav="1">Skills</a></li>
+				<li><a data-scroll-nav="2">Case studies</a></li>
+				<li><a data-scroll-nav="3">Contact</a></li>
+			</ul>
+
+			<div class="nav-icons">
+				<a href="https://twitter.com/macorlett"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+				<a href="https://github.com/macorlett"><i class="fa fa-github fa-fw fa-2x"></i></a>
+				<a href="https://dribbble.com/macorlett"><i class="fa fa-dribbble fa-fw fa-2x"></i></a>
+			</div>
+
+			</div>
+		</nav>
+
+		<header id="home-header" class="content-block blue center full-height">
+			<div id="header-content">
+				<h2>Making things better</h1>
+				<h4>One pixel, sketch and bow-tie Friday at a time</h4>
+				<img class="bowtie" src="/images/bowtie-v2.svg" alt="My wooden bowtie!" width="226" height="95">
+			</div>
+		</header>
+
+
+		<div data-scroll-index="0" class="content-block white center flex-content">
+			<div class="block-item">
+			<h2>about <span class="blue-text">me</span></h2>
+
+			<p>Hi I'm Michael, but everyone calls me Mike. I specialize in designing websites and online user experiences. In my opinion usability trumps everything else when it comes to the web. Provide your users with an awesome experience and they keep coming back. Plain and simple. Follow that up with great design as well as a sweet product and sky's the limit :)</p>
+
+<p>Another one of my passions is illustration. Whether its icons, branding or infographics I love it all! I've recently started posting a bit of it on <a href="https://dribbble.com/macorlett" target="_blank">Dribbble</a> if you are keen on checking it out.</p>
+
+
+			<!--<a href="#" class="button">My CV</a>-->
+			</div>
+		</div>
+
+		<div data-scroll-index="1" class="content-block black center flex-content">
+			<div class="block-item flex-content">
+				<div class="block-item header-item">
+					<h2>what <span class="blue-text">I</span> do</h2>
+				</div>
+				<div class="block-item sub-item">
+					<i class="icon ui"></i>
+					UI/UX
+				</div>
+				<div class="block-item sub-item">
+					<i class="icon mac"></i>
+					Web Design
+				</div>
+				<div class="block-item sub-item">
+					<i class="icon pencil"></i>
+					Illustration
+				</div>
+				<!--<div class="block-item footer-item">
+					<a href="#" class="button blue">View more</a>
+				</div>-->
+			</div>
+		</div>
+
+		<main data-scroll-index="2" class="content-block blue center flex-content">
+			<div class="block-item">
+
+			<h3>Case studies of my work are on the way...</h3>
+			I'm currently writing them as you browse this site. Hopefully next time you
+			check back here there will be something special sitting in this spot ;)
+
+			</div>
+		</main>
+
+		<div data-scroll-index="3" class="content-block white center flex-content">
+			<div class="block-item flex-content">
+				<h2>Drop <span class="blue-text">me</span> a line</h2>
+				<form class="flex-content" action="http://getsimpleform.com/messages?form_api_token=442c456d8ea14e244bcb277cd4c3f6c8" method="post">
+				<input class="sub-item" type="text" name="name" placeholder="Your name"/>
+				<input class="sub-item" type="email" name="email" placeholder="Email address"/>
+				<textarea class="sub-item" type="text" name="message" placeholder="Your message for me :)"></textarea>
+				<input class="button blue" type="submit" value="Send it"/>
+				</form>
+			</div>
+		</div>
+
+		<!--<footer class="content-block center black flex-content">
+			<div class="footer-item">
+			<a href="https://dribbble.com/macorlett"><i class="fa fa-dribbble fa-fw fa-2x"></i></a>
+			<a href="https://twitter.com/macorlett"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+			<a href="https://github.com/macorlett/"><i class="fa fa-github fa-fw fa-2x"></i></a>
+			</div>
+		</footer>-->
+		<script src="/js/main.js"></script>
+		<script src="/js/headroom.js"></script>
+		<script src="/js/scrollIt.min.js"></script>
+		<script>
+		//headroom.js variables
+		//var myHeader=document.querySelector("#resume-nav");
+		var myHeader=document.querySelector("nav");
+		var headroom=new Headroom(myHeader);
+		headroom.init();
+
+		//scrollit
+		$(function(){$.scrollIt();});
+
+		//Google analytics functions
+
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-52607629-1', 'auto');
+		ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>
+

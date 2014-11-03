@@ -7,11 +7,6 @@ nav-link: true
 nav-home: true
 ---
 
-Hi all! the names Michael but everyone calls me Mike (even though mum doesn't like it).
-I'm currently working at <a href="http://zingdesign.com" target="_blank">Zing Design</a> and
-have been for the last 2 years as a web designer and lead illustrator. During my time there
-I've taken on various projects for a number of clients including RaboDirect, Spark, Raygun.io and STQRY.
+Hi I'm Michael, but everyone calls me Mike. I specialize in designing websites and online user experiences. In my opinion usability trumps everything else when it comes to the web. Provide your users with an awesome experience and they keep coming back. Plain and simple. Follow that up with great design as well as a sweet product and sky's the limit :)
 
-I plan to using this website as my ever evloving portfolio and place to share any future
-projects I endver to take on during my free time. So if you are interested in what I'm doing
-feel free to check me out on <a href="https://twitter.com/macorlett" target="_blank">Twitter</a> or <a href="https://dribbble.com/macorlett" target="_blank">Dribbble</a> :)
+Another one of my passions is illustration. Whether its icons, branding or infographics I love it all! I've recently started posting a bit of it on <a href="https://dribbble.com/macorlett" target="_blank">Dribbble</a> if you are keen on checking it out.

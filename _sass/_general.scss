@@ -8,8 +8,13 @@ a{
   cursor: pointer;
   color: #55acee;
   text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(85,172,238,0) 50%, rgba(85,172,238,0.6) 50%);
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  background-position: 0px 20px;
+  transition: color .25s ease-in-out;
   &:hover{
-    color: #55acee;
+    color: lighten(#55acee, 10%);
   }
 }
 p{

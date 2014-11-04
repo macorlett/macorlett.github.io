@@ -1,0 +1,88 @@
+#navigation--toggle{
+  display: none;
+}
+.navigation--open{
+  z-index: $index-1;
+  display: block;
+  width: 48px;
+  height: 48px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  border-radius: 100%;
+  background: url("../images/icon-nav.svg") center no-repeat;
+  cursor: pointer;
+  transition: background-color .25s ease-in-out,
+              box-shadow .25s ease-in-out;
+  &.headroom--not-top{
+    background-color: #55acee;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  }
+  &:hover{
+    background-color: lighten(#55acee, 10%);
+  }
+}
+.navigation--draw{
+  z-index: $index-2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #222;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10%);
+  transition: transform .25s ease-in-out, 
+              opacity .25s ease-in-out,
+              visibility .25s ease-in-out;
+  ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 88px;
+    width: 100%;
+  }
+  li{
+    display: block;
+    color: #fff;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color .25s ease-in-out;
+    &:hover{
+      color: #55acee;
+    }
+  }
+}
+.navigation--close{
+  display: block;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 100%;
+  background: url("../images/icon-close.svg") center no-repeat;
+  cursor: pointer;
+  transition: background-color .25s ease-in-out;
+  &:hover{
+    background-color: lighten(#222, 10%);
+  }
+}
+#navigation--toggle:checked ~ .navigation--draw{
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+@media screen and (min-width: 600px){
+  .navigation--open,
+  .navigation--close{
+    width: 64px;
+    height: 64px;
+    left: 40px;
+  }
+}

@@ -1,42 +1,35 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>michaelcorlett.me</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="">
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href="/css/styles.css" rel="stylesheet">
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	</head>
+  <head>
+    <title>michaelcorlett.me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
 
-	<body>
+  <body>
 
-		<nav id="home-nav" class=" blue flex-content center">
-			<div id="nav-desktop" class="block-nav">
-			<ul>
-				<li><a data-scroll-nav="0">About</a></li>
-				<li><a data-scroll-nav="1">Skills</a></li>
-				<li><a data-scroll-nav="2">Case studies</a></li>
-				<li><a data-scroll-nav="3">Contact</a></li>
-			</ul>
+    <input id="navigation--toggle" type="checkbox">
+    <label class="navigation--open" for="navigation--toggle"></label>
+    <nav class="navigation--draw">
+      <label class="navigation--close" for="navigation--toggle"></label>
+      <ul>
+        <li><label for="navigation--toggle" data-scroll-nav="0">About me</label></li>
+        <li><label for="navigation--toggle" data-scroll-nav="1">What I do</label></li>
+        <li><label for="navigation--toggle" data-scroll-nav="2">Case studies</label></li>
+        <li><label for="navigation--toggle" data-scroll-nav="3">Contact me</label></li>
+      </ul>
+    </nav>
 
-			<div class="nav-icons">
-				<a href="https://twitter.com/macorlett"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
-				<a href="https://github.com/macorlett"><i class="fa fa-github fa-fw fa-2x"></i></a>
-				<a href="https://dribbble.com/macorlett"><i class="fa fa-dribbble fa-fw fa-2x"></i></a>
-			</div>
-
-			</div>
-		</nav>
-
-		<header id="home-header" class="content-block blue center full-height">
-			<div id="header-content">
-				<h2>Making things better</h1>
-				<h4>One pixel, sketch and bow-tie Friday at a time</h4>
-				<img class="bowtie" src="/images/bowtie-v2.svg" alt="My wooden bowtie!" width="226" height="95">
-			</div>
-		</header>
-
+    <header id="home-header" class="content-block blue center full-height">
+      <div id="header-content">
+        <h2>Making things better</h1>
+        <h4>One pixel, sketch and bow-tie Friday at a time</h4>
+        <img class="bowtie" src="/images/bowtie-v2.svg" alt="My wooden bowtie!" width="226" height="95">
+      </div>
+    </header>
 
 		<div data-scroll-index="0" class="content-block white center flex-content">
 			<div class="block-item">
@@ -109,8 +102,8 @@
 		<script>
 		//headroom.js variables
 		//var myHeader=document.querySelector("#resume-nav");
-		//var myHeader=document.querySelector(".navigation--open");
-		var myHeader=document.querySelector("nav");
+		var myHeader=document.querySelector(".navigation--open");
+		//var myHeader=document.querySelector("nav");
 		var headroom=new Headroom(myHeader);
 		headroom.init();
 

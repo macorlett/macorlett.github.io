@@ -1,10 +1,20 @@
 @import url(normalize.css);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: none; }
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #222;
-  font-size: 16px; }
+  font-size: 18px;
+  font-size: 1.8rem; }
 
 a {
   cursor: pointer;
@@ -19,24 +29,33 @@ a {
     color: #83c3f3; }
 
 p {
-  margin: 3rem 0; }
+  margin: 3rem 0;
+  font-size: 18px;
+  font-size: 1.8rem; }
+
+h1,
+h2,
+h3,
+h4,
+p {
+  line-height: 1.5; }
 
 h1, h2 {
   font-weight: 300;
-  font-size: 5.25rem;
-  line-height: 1.2;
+  font-size: 88px;
+  font-size: 8.8rem;
   padding: 0;
   margin: 0; }
 
 h3 {
   font-weight: 400;
-  font-size: 2.5rem;
-  line-height: 1.2; }
+  font-size: 32px;
+  font-size: 3.2rem; }
 
 h4 {
   font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 1.5;
+  font-size: 24px;
+  font-size: 2.4rem;
   padding: 0;
   margin: 0; }
 
@@ -73,10 +92,9 @@ li {
 
 .block-item {
   padding: 200px 20px;
-  font-size: 1.125rem;
-  -webkit-flex: 0 1 780px;
-  -moz-flex: 0 1 780px;
-  flex: 0 1 780px; }
+  -webkit-flex: 0 1 820px;
+  -moz-flex: 0 1 820px;
+  flex: 0 1 820px; }
 
 .block-item.text-left p {
   text-align: left; }
@@ -91,12 +109,13 @@ li {
   padding: 0px 20px 50px 20px; }
 
 .sub-item {
-  -webkit-flex: 0 1 140px;
-  -moz-flex: 0 1 140px;
-  flex: 0 1 140px;
+  -webkit-flex: 0 1 240px;
+  -moz-flex: 0 1 240px;
+  flex: 0 1 240px;
   padding: 0px 50px 40px 50px;
   font-weight: 300;
-  font-size: 1.5rem; }
+  font-size: 24px;
+  font-size: 2.4rem; }
 
 .footer-item {
   -webkit-flex: 0 1 780px;
@@ -104,42 +123,6 @@ li {
   flex: 0 1 780px;
   padding: 30px 20px 30px 20px;
   color: #55acee; }
-
-input.sub-item, textarea.sub-item {
-  -webkit-flex: 0 1 540px;
-  -moz-flex: 0 1 540px;
-  flex: 0 1 540px; }
-
-.button:hover {
-  color: #666;
-  border-color: #666; }
-
-.button.blue:hover {
-  color: #fff;
-  border-color: #fff; }
-
-.content-block.white .button.blue:hover {
-  color: #222;
-  border-color: #222; }
-
-.button {
-  display: inline-block;
-  padding: 8px 40px 8px 40px;
-  border-radius: 2px;
-  border-color: #222;
-  border-width: 2px;
-  border-style: solid;
-  background: none;
-  color: #222;
-  font-size: 1.25rem;
-  font-weight: 600;
-  text-decoration: none;
-  line-height: 2;
-  margin-top: 30px; }
-
-.button.blue {
-  color: #55acee;
-  border-color: #55acee; }
 
 .center {
   text-align: center;
@@ -180,30 +163,6 @@ input.sub-item, textarea.sub-item {
 
 .icon.pencil {
   background-position: 84px; }
-
-form {
-  margin-top: 40px; }
-
-form .button {
-  margin: 0;
-  margin-left: 40px;
-  margin-right: 40px; }
-
-input[type="text"], input[type="email"], textarea {
-  height: 60px;
-  border-radius: 2px;
-  border-width: 2px;
-  border-color: #ccc;
-  border-style: solid;
-  margin-bottom: 20px;
-  padding: 0px 30px 0px 30px;
-  display: block;
-  font-size: 1.25rem;
-  font-weight: 400; }
-
-textarea, textarea.sub-item {
-  height: 160px;
-  padding: 20px 30px 20px 30px; }
 
 footer a:hover {
   color: #fff; }
@@ -272,6 +231,7 @@ footer a {
     color: #fff;
     font-weight: 300;
     font-size: 24px;
+    font-size: 2.4rem;
     line-height: 64px;
     cursor: pointer;
     transition: color .25s ease-in-out; }
@@ -304,3 +264,58 @@ footer a {
     width: 64px;
     height: 64px;
     left: 40px; } }
+form {
+  margin-top: 4rem;
+  width: 540px;
+  font-size: 18px;
+  font-size: 1.8rem; }
+
+input[type="text"],
+input[type="email"],
+textarea {
+  line-height: 1.5;
+  height: 6rem;
+  border-radius: 2px;
+  border-width: 2px;
+  border-color: #ccc;
+  border-style: solid;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0px 30px 0px 30px;
+  display: block;
+  font-weight: 400; }
+
+textarea {
+  display: block;
+  line-height: 1.5;
+  height: 160px;
+  padding: 20px 30px 20px 30px; }
+
+.content-block.white .button.button--blue:hover {
+  color: #222;
+  border-color: #222; }
+
+.button {
+  display: inline-block;
+  padding: 1rem 4rem;
+  border-radius: 2px;
+  border-color: #222;
+  border-width: 2px;
+  border-style: solid;
+  background: none;
+  color: #222;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 2;
+  margin-top: 1rem; }
+  .button:hover {
+    color: #666;
+    border-color: #666; }
+  .button.button--blue {
+    color: #55acee;
+    border-color: #55acee; }
+  .button.button--blue:hover {
+    color: #fff;
+    border-color: #fff; }

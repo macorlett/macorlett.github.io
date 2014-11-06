@@ -264,6 +264,26 @@ footer a {
     width: 64px;
     height: 64px;
     left: 40px; } }
+#header-content {
+  position: relative; }
+
+.header--page-down {
+  position: absolute;
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  cursor: pointer;
+  background: url("../images/icon-down.svg") center no-repeat;
+  left: 50%;
+  transform: translateX(-50%); }
+  .header--page-down:hover {
+    background-color: #83c3f3; }
+
+@media screen and (min-width: 600px) {
+  .header--page-down {
+    width: 64px;
+    height: 64px; } }
 form {
   margin-top: 4rem;
   width: 540px;

@@ -30,7 +30,7 @@ p{
 }
 h1,h2{
   font-weight: 300;
-  @include font-size($type-header-2);
+  @include font-size($type-big);
   padding: 0;
   margin: 0;
 }

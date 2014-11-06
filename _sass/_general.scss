@@ -30,7 +30,7 @@ p{
 }
 h1,h2{
   font-weight: 300;
-  @include font-size($type-header-1);
+  @include font-size($type-header-2);
   padding: 0;
   margin: 0;
 }
@@ -78,7 +78,7 @@ li{
   justify-content:center;
 }
 .block-item{
-  padding: 200px 20px;
+  padding: 8rem 2rem;
   -webkit-flex: 0 1 820px;
   -moz-flex: 0 1 820px;
   flex: 0 1 820px;
@@ -160,17 +160,12 @@ footer a{
   margin: 0px 15px 0px 15px;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (min-width:600px){
+  .block-item{
+    padding: 20rem 2rem;
+  }
+  h1,
   h2{
-    font-size:4rem;
-  }
-  h3{
-    font-size:2rem;
-  }
-  #nav-desktop ul{
-    display: none;
-  }
-  .nav-icons{
-    float: none;
+    @include font-size($type-header-1);
   }
 }

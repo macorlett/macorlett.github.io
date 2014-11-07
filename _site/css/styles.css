@@ -106,10 +106,10 @@ li {
   -moz-flex: 0 1 820px;
   flex: 0 1 820px; }
 
-.header-item {
+.block-item .header-item {
   padding: 0px 20px 50px 20px; }
 
-.sub-item {
+.block-item .sub-item {
   -webkit-flex: 0 1 240px;
   -moz-flex: 0 1 240px;
   flex: 0 1 240px;

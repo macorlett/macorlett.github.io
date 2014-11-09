@@ -10,23 +10,25 @@
   </head>
 
   <body>
-
+    
     <input id="navigation--toggle" type="checkbox">
     <label class="navigation--open" for="navigation--toggle"></label>
     <nav class="navigation--draw">
       <label class="navigation--close" for="navigation--toggle"></label>
       <ul>
-        <li data-scroll-nav="0"><label for="navigation--toggle">About me</label></li>
-        <li data-scroll-nav="1"><label for="navigation--toggle">What I do</label></li>
-        <li data-scroll-nav="2"><label for="navigation--toggle">Case studies</label></li>
-        <li data-scroll-nav="3"><label for="navigation--toggle">Contact me</label></li>
+        <li><label for="navigation--toggle" data-scroll-nav="0">About me</label></li>
+        <li><label for="navigation--toggle" data-scroll-nav="1">What I do</label></li>
+        <li><label for="navigation--toggle" data-scroll-nav="2">Case studies</label></li>
+        <li><label for="navigation--toggle" data-scroll-nav="3">Contact me</label></li>
       </ul>
     </nav>
 
     <header id="home-header" class="content-block blue center full-height">
+    <div class="header--page-down" data-scroll-nav="0"></div>
       <div id="header-content">
         <h2>{{ page.title }}</h1>
         <h4>{{ page.description }}</h4>
         <img class="bowtie" src="/images/bowtie-v2.svg" alt="My wooden bowtie!" width="226" height="95">
+        
       </div>
     </header>

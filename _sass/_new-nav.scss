@@ -44,10 +44,13 @@
   }
   li{
     display: block;
+    text-align: center;
+  }
+  label{
+    display: block;
     color: #fff;
     font-weight: 300;
-    font-size: 24px;
-    text-align: center;
+    @include font-size($type-medium);
     line-height: 64px;
     cursor: pointer;
     transition: color .25s ease-in-out;

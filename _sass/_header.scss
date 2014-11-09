@@ -1,0 +1,40 @@
+#header-content{
+  position: relative;
+}
+.header--page-down{
+  z-index: $index-1;
+  position: absolute;
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  cursor: pointer;
+  background: url("../images/icon-down.svg") center no-repeat;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: background-color .25s ease-in-out;
+  &:hover{
+    background-color: lighten(#55acee, 10%);
+  }
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: .5s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+
+}
+@-webkit-keyframes fadein{
+  0% {opacity: 0; transform: translate(-50%,-20%); visibility: visible;}
+  100% {opacity:1; transform: translate(-50%,0%); visibility: visible;}
+}
+@media screen and (min-width: 600px){
+  .header--page-down{
+    width: 64px;
+    height: 64px;
+    bottom: 3.2rem;
+  }
+}

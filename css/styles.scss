@@ -4,7 +4,10 @@
 @import url(normalize.css);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
 
+@import 'mixins';
 @import 'global';
 @import 'general';
-@import 'navigation';
-//@import 'new-nav';
+//@import 'navigation';
+@import 'new-nav';
+@import 'header';
+@import 'form';

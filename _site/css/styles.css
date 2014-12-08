@@ -38,7 +38,7 @@ h2,
 h3,
 h4,
 p {
-  line-height: 1.5; }
+  line-height: 1.8; }
 
 h1, h2 {
   font-weight: 300;
@@ -223,7 +223,7 @@ footer a {
   .navigation--draw li {
     display: block;
     text-align: center; }
-  .navigation--draw label {
+  .navigation--draw li label {
     display: block;
     color: #fff;
     font-weight: 300;
@@ -232,7 +232,7 @@ footer a {
     line-height: 64px;
     cursor: pointer;
     transition: color .25s ease-in-out; }
-    .navigation--draw label:hover {
+    .navigation--draw li label:hover {
       color: #55acee; }
 
 .navigation--close {
@@ -293,6 +293,7 @@ footer a {
     opacity: 0;
     transform: translate(-50%, -20%);
     visibility: visible; }
+
   100% {
     opacity: 1;
     transform: translate(-50%, 0%);

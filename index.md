@@ -1,6 +1,6 @@
 ---
 title: Making things better
-description: "One pixel, sketch and bow-tie Friday at a time"
+description: "One pixel, sketch and bow-tie at a time"
 
 layout: default
 nav-link: true

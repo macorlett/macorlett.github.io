@@ -1,5 +1,14 @@
 #header-content{
   position: relative;
+  h2{
+    @include font-size($type-large);
+  }
+  h4{
+    @include font-size($type-standard);
+  }
+}
+.bowtie{
+  margin-bottom: 3rem;
 }
 .header--page-down{
   z-index: $index-1;
@@ -36,5 +45,13 @@
     width: 64px;
     height: 64px;
     bottom: 3.2rem;
+  }
+  #header-content{
+    h2{
+      @include font-size($type-big);
+    }
+    h4{
+      @include font-size($type-medium);
+    }
   }
 }

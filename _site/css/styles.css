@@ -38,7 +38,7 @@ h2,
 h3,
 h4,
 p {
-  line-height: 1.8; }
+  line-height: 2; }
 
 h1, h2 {
   font-weight: 300;
@@ -53,7 +53,7 @@ h3 {
   font-size: 3.2rem; }
 
 h4 {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 24px;
   font-size: 2.4rem;
   padding: 0;
@@ -263,6 +263,15 @@ footer a {
     left: 40px; } }
 #header-content {
   position: relative; }
+  #header-content h2 {
+    font-size: 32px;
+    font-size: 3.2rem; }
+  #header-content h4 {
+    font-size: 18px;
+    font-size: 1.8rem; }
+
+.bowtie {
+  margin-bottom: 3rem; }
 
 .header--page-down {
   z-index: 100;
@@ -293,7 +302,6 @@ footer a {
     opacity: 0;
     transform: translate(-50%, -20%);
     visibility: visible; }
-
   100% {
     opacity: 1;
     transform: translate(-50%, 0%);
@@ -302,7 +310,14 @@ footer a {
   .header--page-down {
     width: 64px;
     height: 64px;
-    bottom: 3.2rem; } }
+    bottom: 3.2rem; }
+
+  #header-content h2 {
+    font-size: 48px;
+    font-size: 4.8rem; }
+  #header-content h4 {
+    font-size: 24px;
+    font-size: 2.4rem; } }
 form {
   margin-top: 4rem;
   width: 540px;
@@ -348,7 +363,8 @@ textarea {
   font-weight: 600;
   text-decoration: none;
   line-height: 2;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  transition: all .25s ease-in-out; }
   .button:hover {
     color: #666;
     border-color: #666; }

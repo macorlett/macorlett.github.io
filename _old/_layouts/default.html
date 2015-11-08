@@ -1,0 +1,58 @@
+{% include new-header.html %}
+
+		<div data-scroll-index="0" class="content-block white center flex-content">
+			<div class="block-item">
+			<h2>about <span class="blue-text">me</span></h2>
+
+			{{ content }}
+
+			<!--<a href="#" class="button">My CV</a>-->
+			</div>
+		</div>
+
+		<div data-scroll-index="1" class="content-block black center flex-content">
+			<div class="block-item flex-content">
+				<div class="block-item header-item">
+					<h2>what <span class="blue-text">I</span> do</h2>
+				</div>
+				<div class="block-item sub-item">
+					<i class="icon ui"></i>
+					UI/UX
+				</div>
+				<div class="block-item sub-item">
+					<i class="icon mac"></i>
+					Web Design
+				</div>
+				<div class="block-item sub-item">
+					<i class="icon pencil"></i>
+					Illustration
+				</div>
+				<!--<div class="block-item footer-item">
+					<a href="#" class="button blue">View more</a>
+				</div>-->
+			</div>
+		</div>
+
+		<main data-scroll-index="2" class="content-block blue center flex-content">
+			<div class="block-item">
+
+			<h3>Case studies of my work are on the way...</h3>
+			I'm currently writing them as you browse this site. Hopefully next time you
+			check back here there will be something special sitting in this spot ;)
+
+			</div>
+		</main>
+
+		<div data-scroll-index="3" class="content-block white center flex-content">
+			<div class="block-item flex-content">
+				<h2>Drop <span class="blue-text">me</span> a line</h2>
+				<form action="http://getsimpleform.com/messages?form_api_token=442c456d8ea14e244bcb277cd4c3f6c8" method="post">
+				<input type="text" name="name" placeholder="Your name"/>
+				<input type="email" name="email" placeholder="Email address"/>
+				<textarea type="text" name="message" placeholder="Your message for me :)"></textarea>
+				<input class="button button--blue" type="submit" value="Send it"/>
+				</form>
+			</div>
+		</div>
+
+{% include footer.html %}

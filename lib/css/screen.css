@@ -152,7 +152,7 @@ hr{
 .post{
 	max-width: 580px;
 	text-align: left;
-	margin: 0 auto 80px auto;
+	margin: 0 auto; //80px auto;
 	padding: 0 40px 0 40px;
 }
 .post--date{

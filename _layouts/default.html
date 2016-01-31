@@ -1,41 +1,13 @@
+---
+---
 <!DOCTYPE html>
-
 <html>
-	
-	{% include head.html %}
+	{% include _head.html %}
+<body>
+	{% include _navigation.html %}
+  
+  {{ content }}
 
-	<body>
-		
-		<!-- {% include navigation.html %} -->
-
-		<div class="wrapper--blog-roll js--full-height">
-
-		{% include header.html %}
-
-		<main role="main" class="content--main flex--content flex--content--center js--full-height">
-
-			<article class="post">
-				<header class="post--header">
-					<h2 style="text-align: center">Hey there!</h2>
-				</header>
-
-				<section class="post--excerpt">
-					<p>
-					I’m a Digital Designer, working in the areas for web and mobile app design, branding and illustration. If you are interested in my work you can check it out over on <a class="link--dribbble" href="https://dribbble.com/macorlett/">Dribblble</a>.
-					</p>
-				</section>
-
-				<a class="button button--blue" href="mailto:macorlett@gmail.com">Get in touch</a>
-
-				<div class="post--text--faded">Blog coming soon...</div>
-			</article>
-
-		</main>
-
-		{% include footer.html %}
-
-		</div>
-
-	</body>
-
+  {% include _footer.html %}
+</body>
 </html>

@@ -1,15 +1,21 @@
-name: "michaelcorlett.me"
-decription: "Michael Corlett's online portfolio"
+title: "A home on the web for Michael Corlett - Illustrator and Digital Designer"
+email: macorlett@gmail.com
+description: Michael Corlett is a freelance Illustrator and Digital Designer from New Zealand
+timezone: Pacific/Auckland
+twitter: macorlett
+dribbble: macorlett
 
-twitter: "https://twitter.com/macorlett"
-github: "https://github.com/macorlett"
-dribbble: "https://dribbble.com/macorlett"
+baseurl:"/"
+url: "http://michaelcorlett.me"
 
-# url: "http://michaelcorlett.me"
-url: "http://localhost:4000"
-port: 4000
+# gems
+gems: [jekyll-paginate]
 
-paginate: 10
-
-markdown: rdiscount
+# Build settings
+future: false
 permalink: pretty
+paginate: 10
+markdown: rdiscount
+excerpt_separator: "<!-- excerpt ends -->"
+sass:
+style: :compressed

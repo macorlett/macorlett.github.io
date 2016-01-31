@@ -5,7 +5,7 @@ timezone: Pacific/Auckland
 twitter: macorlett
 dribbble: macorlett
 
-baseurl:"/"
+baseurl:"http://michaelcorlett.me"
 url: "http://michaelcorlett.me"
 
 # gems

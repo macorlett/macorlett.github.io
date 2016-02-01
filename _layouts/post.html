@@ -19,6 +19,7 @@ layout: default
 
 </article>
 
+{% if page.previous or page.next %}
 <nav class="post--pagination">
 	{% if page.previous %}
 	<a class="post--link--prev" href="{{ page.previous.url }}"><i class="fa fa-long-arrow-left"></i>{{ page.previous.title }}</a>
@@ -28,5 +29,6 @@ layout: default
 	<a class="post--link--next" href="{{ page.next.url }}">{{ page.next.title }}<i class="fa fa-long-arrow-right"></i></a>
 	{% endif %}
 </nav>
+{% endif %}
 
 {% include _post-footer.html %}

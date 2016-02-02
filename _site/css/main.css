@@ -123,6 +123,9 @@ a {
     margin-top: 16px; }
   .section--blog-roll--post a {
     text-decoration: none; }
+  .section--blog-roll--post h2 a {
+    padding-left: 0;
+    padding-right: 0; }
 
 .blog-roll--post--date {
   font-size: 14px; }
@@ -149,7 +152,7 @@ a {
 .post {
   width: 100%;
   max-width: 700px;
-  padding: 24px 20px 24px;
+  padding: 24px 20px 0;
   margin: 0 auto; }
 
 .post h1 span {
@@ -169,7 +172,8 @@ a {
   margin: 0; }
 
 .post--bread-crumb {
-  text-transform: lowercase; }
+  text-transform: lowercase;
+  font-weight: 300; }
   .post--bread-crumb i {
     margin: 0 5px; }
 
@@ -177,11 +181,20 @@ a {
   font-weight: 300;
   text-decoration: none; }
 
+.post--footer {
+  width: 100%;
+  max-width: 700px;
+  margin: 56px auto 32px;
+  padding: 32px 20px;
+  border-top: 1px dashed #DDD; }
+  .post--footer h3 {
+    margin-bottom: 24px; }
+
 .post--pagination {
   overflow: hidden;
   width: 100%;
   max-width: 700px;
-  padding: 24px 20px;
+  padding: 32px 20px 0;
   margin: 0 auto; }
 
 .post--link--prev,
@@ -217,7 +230,7 @@ a {
     margin: 16px 0 16px 32px; } }
 @media screen and (min-width: 800px) {
   .post {
-    padding: 48px 20px 32px; }
+    padding: 48px 20px 0; }
 
   .img--post--logo {
     margin: 96px auto 56px; } }

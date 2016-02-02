@@ -15,7 +15,7 @@ gems: [jekyll-paginate]
 future: false
 permalink: pretty
 paginate: 10
-markdown: rdiscount
+markdown: kramdown
 excerpt_separator: "<!-- excerpt ends -->"
 sass:
 style: :compressed

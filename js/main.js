@@ -28,6 +28,11 @@ function resizeend() {
     }else{
       $('.js--full-height').css({height:"auto"});
     }
+    if($(window).width()>600){
+      $('.post--link--prev .js--mobile--prev').remove();
+    }else{
+      $('.post--link--prev').append('<div class="js--mobile--prev">Previous</div>');
+    }
   }               
 }
 function wrapTitleCharacters(){

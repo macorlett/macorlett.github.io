@@ -33,7 +33,7 @@ function resizeend() {
       $('.post--link--next .js--mobile--next').remove();
     }else{
       $('.post--link--prev').append('<div class="js--mobile--prev" style="display:inline">Previous</div>');
-      $('.post--link--next').append('<div class="js--mobile--next" style="display:inline">Next</div>');
+      $('.post--link--next').prepend('<div class="js--mobile--next" style="display:inline">Next</div>');
     }
   }               
 }

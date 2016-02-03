@@ -30,8 +30,10 @@ function resizeend() {
     }
     if($(window).width()>600){
       $('.post--link--prev .js--mobile--prev').remove();
+      $('.post--link--next .js--mobile--next').remove();
     }else{
-      $('.post--link--prev').append('<div class="js--mobile--prev">Previous</div>');
+      $('.post--link--prev').append('<div class="js--mobile--prev" style="display:inline">Previous</div>');
+      $('.post--link--next').append('<div class="js--mobile--next" style="display:inline">Next</div>');
     }
   }               
 }

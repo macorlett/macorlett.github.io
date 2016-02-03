@@ -212,11 +212,15 @@ a {
   float: right; }
   .post--link--next i {
     margin-left: 10px; }
+  .post--link--next span {
+    display: none; }
 
 .post--link--prev {
   float: left; }
   .post--link--prev i {
     margin-right: 10px; }
+  .post--link--prev span {
+    display: none; }
 
 @media screen and (min-width: 600px) {
   .img--small--left {
@@ -227,7 +231,11 @@ a {
   .img--small--right {
     max-width: 300px;
     float: right;
-    margin: 16px 0 16px 32px; } }
+    margin: 16px 0 16px 32px; }
+
+  .post--link--prev span,
+  .post--link--next span {
+    display: inline; } }
 @media screen and (min-width: 800px) {
   .post {
     padding: 48px 20px 0; }

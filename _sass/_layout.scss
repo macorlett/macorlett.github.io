@@ -26,6 +26,9 @@
 	-webkit-align-items: flex-end;
 	align-items: flex-end;
 }
+.section--landing-header::-webkit-scrollbar { 
+    display: none; 
+}
 .section--landing-header--title-space{
 	-webkit-flex: 1 1 auto;
 	flex: 1 1 auto;

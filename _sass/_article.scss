@@ -54,3 +54,18 @@
 	background: $color-mid-grey;
 	margin: 40px 0 64px;
 }
+.article--next,
+.article--prev{
+	z-index: $index-1;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	width: 86px;
+	background: none;
+}
+.article--next{
+	right: 0px;
+}
+.article--prev{
+	left: 0px;
+}

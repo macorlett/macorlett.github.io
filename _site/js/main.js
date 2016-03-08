@@ -32,8 +32,12 @@ function resizeend() {
       $('.post--link--prev .js--mobile--prev').remove();
       $('.post--link--next .js--mobile--next').remove();
     }else{
-      $('.post--link--prev').append('<div class="js--mobile--prev" style="display:inline">Previous</div>');
-      $('.post--link--next').prepend('<div class="js--mobile--next" style="display:inline">Next</div>');
+      if(!$('.js--mobile--next').length){
+        $('.post--link--next').prepend('<div class="js--mobile--next" style="display:inline">Next</div>');
+      }
+      if(!$('.js--mobile--prev').length){
+        $('.post--link--prev').append('<div class="js--mobile--prev" style="display:inline">Previous</div>');
+      }
     }
   }               
 }

@@ -74,10 +74,18 @@
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	transition: left .25s, right .25s;
+	cursor: pointer;
 }
 .article--next--button{
 	right: 60px;
+	&:hover{
+		right: 30px;
+	}
 }
 .article--prev--button{
 	left: 60px;
+	&:hover{
+		left: 30px;
+	}
 }

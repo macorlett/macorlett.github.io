@@ -60,7 +60,7 @@
 	position: fixed;
 	top: 0px;
 	bottom: 0px;
-	width: 86px;
+	min-width: 86px;
 	background: none;
 }
 .article--next{
@@ -73,19 +73,28 @@
 .article--prev--button{
 	position: absolute;
 	top: 50%;
+	width: 100%;
+	padding: 24px 0;
 	transform: translateY(-50%);
-	transition: left .25s, right .25s;
 	cursor: pointer;
-}
-.article--next--button{
-	right: 60px;
 	&:hover{
-		right: 30px;
+		.next--button--content{
+			padding-right: 30px;
+		}
+		.prev--button--content{
+			padding--left: 30px;
+		}
 	}
 }
-.article--prev--button{
-	left: 60px;
-	&:hover{
-		left: 30px;
-	}
+.next--button--content,
+.prev--button--content{
+	position: absolute;
+}
+.next--button--content{
+	right: 0;
+	padding: 0 60px 0 30px;
+}
+.prev--button--content{
+	left: 0;
+	padding: 0 30px 0 60px;
 }

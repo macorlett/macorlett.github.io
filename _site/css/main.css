@@ -1,5 +1,5 @@
 @import url(normalize.css);
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Playfair+Display:400,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic|Playfair+Display:400,700,700italic|Libre+Baskerville:400,400italic,700);
 html {
   font-family: "Lato", Arial, sans-serif;
   font-size: 18px;
@@ -246,3 +246,37 @@ a {
 
   .img--post--logo {
     margin: 96px auto 56px; } }
+.article--wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  padding: 0 40px;
+  margin: 0; }
+
+.article--content {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  font-family: 'Libre Baskerville', Times, serif; }
+  .article--content p {
+    font-size: 24px;
+    line-height: 32px; }
+
+.content--header--h1 {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 900; }
+
+.content--header--h3 {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 32px; }
+  .content--header--h3:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 6px;
+    background: #ACACAC;
+    margin: 40px 0 64px; }

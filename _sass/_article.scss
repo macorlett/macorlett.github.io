@@ -90,7 +90,7 @@
 .next--button--content,
 .prev--button--content{
 	position: absolute;
-	transition: paddding .25s;
+	transition: paddding .25s, padding-left .25s, padding-right .25s;
 }
 .next--button--content{
 	right: 0;

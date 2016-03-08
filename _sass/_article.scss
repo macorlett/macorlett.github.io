@@ -72,6 +72,7 @@
 .article--next--button,
 .article--prev--button{
 	position: absolute;
+	height: auto;
 	top: 50%;
 	width: 100%;
 	padding: 24px 0;
@@ -89,6 +90,7 @@
 .next--button--content,
 .prev--button--content{
 	position: absolute;
+	transition: paddding .25s;
 }
 .next--button--content{
 	right: 0;

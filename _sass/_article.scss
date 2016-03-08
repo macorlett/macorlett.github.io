@@ -80,6 +80,7 @@
 	height: auto;
 	top: 50%;
 	width: 100%;
+	height: 100px;
 	padding: 24px 0;
 	transform: translateY(-50%);
 	cursor: pointer;
@@ -95,6 +96,8 @@
 .next--button--content,
 .prev--button--content{
 	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 	transition: paddding .25s, padding-left .25s, padding-right .25s;
 }
 .next--button--content{

@@ -5,4 +5,10 @@ $(document).ready(function(){
 	$('.js--article--next').mouseleave(function(){
 		$('.article--next').removeClass('article--next--active');
 	});
+	$('.js--article--prev').mouseenter(function(){
+		$('.article--prev').addClass('article--prev--active');
+	});
+	$('.js--article--prev').mouseleave(function(){
+		$('.article--prev').removeClass('article--prev--active');
+	});
 });

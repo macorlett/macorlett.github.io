@@ -69,3 +69,15 @@
 .article--prev{
 	left: 0px;
 }
+.artcle--next--button,
+.article--prev--button{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.article--next--button{
+	right: 60px;
+}
+.article--prev--button{
+	left: 60px;
+}

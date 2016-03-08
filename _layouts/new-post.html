@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="article--wrapper">
+	
+	<article class="article--content">
+
+		<div class="article--content--meta">
+			// bread crumb and meta data stuff goes here.
+		</div>
+		
+		<div role="heading" class="article--content--header">
+			<h1 class="content--header--h1">{{ page.title }}</h1>
+			<h3 class="content--header--h3">{{ page.sub-header }}</h3>
+		</div>
+
+		{{ content }}
+
+	</article>
+
+	<div class="article--footer">
+		<h3 class="footer--header--h3">Want to continue the conversation?</h3>
+		<p>
+			Me too! Just hit me up on twitter <a href="{{ 'https://twitter.com/' | append: site.twitter }}">{{ '@' | append: site.twitter }}</a> if you are keen to keep the conversation going. I'm always interested in hearing what other's have to say.
+		</p>
+	</div>
+
+</div>
+
+<div class="article--next">
+	<div class="article--next--button js--article--next">
+		<img src="img/icon--article-next.svg">
+	</div>
+</div>
+
+<div class="article--prev">
+	<div class="article--prev--button js--article--prev">
+		<img src="img/icon--article-prev.svg">
+	</div>
+</div>

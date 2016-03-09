@@ -1,5 +1,5 @@
 ---
-layout: new-post
+layout: post
 title: 'The Builders'
 sub-header: 'A short piece about my dad for his birthday'
 ---

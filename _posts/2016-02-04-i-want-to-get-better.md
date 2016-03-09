@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2016-02-04
-title: 'I want to get better'
-sub-header: 'And I'll start with the only way I know how.'
+title: I want to get better
+sub-header: And I'll start with the only way I know how.
 ---
 
 Writing has always been tuff for me, ever since I was a kid. While others around me picked it up with ease, letters and words were something my brain just didn't comprehend.<!-- excerpt ends --> Though never diagnosed my parents choked it up to mostly like a case of dyslexia. still, to this day I often struggle with it, though it's not so bad considering most everything has inbuilt spell check.

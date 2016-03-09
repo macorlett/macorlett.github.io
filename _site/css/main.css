@@ -251,7 +251,7 @@ a {
   display: block;
   width: 100%;
   max-width: 900px;
-  padding: 96px 40px;
+  padding: 56px 40px 96px;
   margin: 0 auto;
   transition: transform .25s; }
 
@@ -261,13 +261,17 @@ a {
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
-  font-family: 'Libre Baskerville', Times, serif; }
+  font-family: 'Libre Baskerville', Times, serif;
+  font-size: 16px;
+  line-height: 28px; }
   .article--content p,
+  .article--footer p {
+    color: #333; }
   .article--content a,
-  .article--footer p,
   .article--footer a {
-    font-size: 16px;
-    line-height: 28px; }
+    color: #000;
+    text-decoration: underline;
+    font-weight: 400; }
   .article--content blockquote,
   .article--footer blockquote {
     margin: 24px 0;
@@ -275,10 +279,8 @@ a {
     border-left: 5px solid #D8D8D8; }
     .article--content blockquote p,
     .article--footer blockquote p {
-      line-height: 42px; }
-
-.article--content--meta {
-  margin-bottom: 64px; }
+      line-height: 42px;
+      color: #000; }
 
 .article--divide {
   border-top: 1px dashed #CDCDCD;
@@ -286,24 +288,31 @@ a {
   height: 0;
   margin: 96px 0 56px; }
 
-.meta--bread-crumb--link {
-  text-transform: lowercase;
-  text-decoration: none;
-  font-weight: 400; }
+.article--content--meta {
+  margin-bottom: 96px; }
+  .article--content--meta .meta--bread-crumb--link {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-weight: 400; }
 
 .content--header--h1 {
   font-family: "Lato", Arial, sans-serif;
   font-size: 72px;
   line-height: 72px;
-  font-weight: 900; }
+  font-weight: 900;
+  color: #000; }
 
 .content--header--h3,
 .footer--header--h3 {
   font-family: "Lato", Arial, sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 32px;
   font-weight: 400;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #000; }
+
+.footer--header--h3 {
+  font-size: 24px; }
 
 .content--header--h3:after {
   content: "";

@@ -2,7 +2,7 @@
 layout: post
 date: 2016-02-01
 title: "Starting with a clean slate"
-sub-header: 'With a new blog comes new responsibility.''
+sub-header: 'With a new blog comes new responsibility.'
 ---
 
 So here we are. This should be interesting. I've finally gotten round to getting this website into a state that I'm reasonably happy with. Happy enough to start writing articles anyway. <!-- excerpt ends --> On top of that, I have now made the effort to find the time and actually write stuff, which is good.

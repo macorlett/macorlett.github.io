@@ -19,6 +19,7 @@ $type-size-xlarge: 64px;
 $type-stack-serif: 'Playfair Display', Times, Serif;
 $type-stack-sans-serif: 'Lato', Arial, sans-serif;
 $type-stack-merriweather: 'Merriweather', Times, Serif;
+$type-stack-baskerville: 'Libre Baskerville', Times, Serif;
 
 $color-green: #95C564;
 $color-black: #000;
@@ -31,9 +32,9 @@ $color-mint: #50E3C2;
 $color-blue: #55ACEE;
 
 html{
-	font-family: $type-stack-sans-serif;
+	font-family: $type-stack-baskerville;
 	//font-family: $type-stack-merriweather;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 400;
-	line-height: 32px;
+	line-height: 28px;
 }

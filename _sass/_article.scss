@@ -63,7 +63,7 @@
 	bottom: 0px;
 	min-width: 86px;
 	background: none;
-	transition: background .25s;
+	transition: background .25s, transform .25s;
 }
 .article--next--active,
 .article--prev--active{

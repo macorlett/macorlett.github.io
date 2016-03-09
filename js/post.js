@@ -14,7 +14,7 @@ $(document).ready(function(){
 		$('.article--prev').addClass('article--prev--active');
 		move=$('.article--prev').width();
 		pushElement($('.article--wrapper'),move);
-		pushElement($('.article--prev'),move);
+		pushElement($('.article--next'),move);
 	});
 	$('.js--article--prev').mouseleave(function(){
 		$('.article--prev').removeClass('article--prev--active');

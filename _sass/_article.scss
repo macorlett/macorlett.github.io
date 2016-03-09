@@ -25,6 +25,7 @@
 		border-left: 5px solid $color-light-grey;
 		p{
 			line-height: 42px;
+			color: $color-black;
 		}
 	}
 }
@@ -47,6 +48,7 @@
 	font-size: 72px;
 	line-height: 72px;
 	font-weight: 900;
+	color: $color-black;
 }
 .content--header--h3,
 .footer--header--h3{
@@ -55,6 +57,7 @@
 	line-height: 32px;
 	font-weight: 400;
 	text-transform: uppercase;
+	color: $color-black;
 }
 .footer--header--h3{
 	font-size: 24px;

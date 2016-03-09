@@ -32,7 +32,8 @@ layout: default
 	</div>
 
 </div>
-
+{% if page.previous or page.next %}
+{% if page.next %}
 <div class="article--next">
 	<a href="{{ page.next.url }}" class="article--next--button js--article--next">
 		<div class="next--button--content">
@@ -40,7 +41,8 @@ layout: default
 		</div>
 	</a>
 </div>
-
+{% endif %}
+{% if page.previous %}
 <div class="article--prev">
 	<a href="{{ page.previous.url }}" class="article--prev--button js--article--prev">
 		<div class="prev--button--content">
@@ -48,3 +50,4 @@ layout: default
 		</div>
 	</a>
 </div>
+{% endif %}

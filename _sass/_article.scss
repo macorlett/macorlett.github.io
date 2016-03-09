@@ -57,7 +57,7 @@
 .article--next,
 .article--prev{
 	z-index: $index-1;
-	position: fixed;
+	position: absolute;
 	top: 0px;
 	bottom: 0px;
 	min-width: 86px;

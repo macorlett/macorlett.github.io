@@ -33,6 +33,14 @@
 	height: 0;
 	margin: 96px 0 56px;
 }
+.meta--bread-crumb--link{
+	text-transform: lowercase;
+	text-decoration: none;
+	transition: text-decoration .25s;
+	&:hover{
+		text-decoration: underline;
+	}
+}
 .content--header--h1{
 	font-family: $type-stack-sans-serif;
 	font-size: 72px;

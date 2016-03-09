@@ -2,6 +2,7 @@ $(document).ready(function(){
 	$('.js--article--next').mouseenter(function(){
 		$('.article--next').addClass('article--next--active');
 		move=$('.article--next').width();
+		$('.article--next').css({width:move+move+'px'})
 		pushElement($('.article--wrapper'),-move);
 		pushElement($('.article--prev'),-move);
 	});

@@ -1,7 +1,7 @@
 ---
 layout: new-post
 title: 'The Builders'
-sub-header: 'A short piece about my dad on for his birthday'
+sub-header: 'A short piece about my dad for his birthday'
 ---
 
 My dad has always been a big poety fan so for his birthday I wrote him a small piece about him and I.

@@ -14,10 +14,10 @@
 	max-width: 700px;
 	margin: 0 auto;
 	font-family: 'Libre Baskerville', Times, serif;
-	p,
-	a{
-		font-size: 16px;
-		line-height: 28px;
+	font-size: 16px;
+	line-height: 28px;
+	p{
+		color: $color-text-black;
 	}
 	blockquote{
 		margin: 24px 0;
@@ -55,6 +55,9 @@
 	line-height: 32px;
 	font-weight: 400;
 	text-transform: uppercase;
+}
+.footer--header--h3{
+	font-size: 24px;
 }
 .content--header--h3:after{
 	content: "";

@@ -5,6 +5,7 @@
 	max-width: 900px;
 	padding: 96px 40px;
 	margin: 0 auto;
+	transition: transform .25s;
 }
 .article--content,
 .article--footer{
@@ -57,7 +58,7 @@
 .article--next,
 .article--prev{
 	z-index: $index-1;
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	bottom: 0px;
 	min-width: 86px;

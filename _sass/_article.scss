@@ -19,6 +19,11 @@
 	p{
 		color: $color-text-black;
 	}
+	a{
+		color: $color-black;
+		text-decoration: underline;
+		font-weight: 400;
+	}
 	blockquote{
 		margin: 24px 0;
 		padding: 0 0 0 35px; 

@@ -277,6 +277,9 @@ a {
     .article--footer blockquote p {
       line-height: 42px; }
 
+.article--content--meta {
+  margin-bottom: 64px; }
+
 .article--divide {
   border-top: 1px dashed #CDCDCD;
   width: 100%;

@@ -85,6 +85,9 @@
 	min-width: 86px;
 	background: none;
 	transition: background .25s, transform .25s;
+	a:hover{
+		background: none;
+	}
 }
 .article--next--active,
 .article--prev--active{

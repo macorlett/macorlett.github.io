@@ -14,9 +14,11 @@
 	max-width: 700px;
 	margin: 0 auto;
 	font-family: 'Libre Baskerville', Times, serif;
-	p{
+	p,
+	a{
 		font-size: 16px;
 		line-height: 28px;
+	}
 	}
 	blockquote{
 		margin: 24px 0;
@@ -36,10 +38,7 @@
 .meta--bread-crumb--link{
 	text-transform: lowercase;
 	text-decoration: none;
-	transition: text-decoration .25s;
-	&:hover{
-		text-decoration: underline;
-	}
+	font-weight: 400;
 }
 .content--header--h1{
 	font-family: $type-stack-sans-serif;

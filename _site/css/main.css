@@ -1,5 +1,5 @@
 @import url(normalize.css);
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic|Playfair+Display:400,700,700italic|Libre+Baskerville:400,400italic,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic|Playfair+Display:400,700,700italic|Libre+Baskerville:400,400italic,700|Cardo:400,400italic,700);
 html {
   font-family: "Lato", Arial, sans-serif;
   font-size: 18px;
@@ -251,17 +251,42 @@ a {
   display: block;
   width: 100%;
   max-width: 900px;
-  padding: 0 40px;
-  margin: 0; }
+  padding: 96px 40px;
+  margin: 0 auto;
+  transition: transform .25s; }
 
-.article--content {
+.article--content,
+.article--footer {
   display: block;
   width: 100%;
   max-width: 700px;
+  margin: 0 auto;
   font-family: 'Libre Baskerville', Times, serif; }
-  .article--content p {
-    font-size: 24px;
-    line-height: 32px; }
+  .article--content p,
+  .article--content a,
+  .article--footer p,
+  .article--footer a {
+    font-size: 16px;
+    line-height: 28px; }
+  .article--content blockquote,
+  .article--footer blockquote {
+    margin: 24px 0;
+    padding: 0 0 0 35px;
+    border-left: 5px solid #D8D8D8; }
+    .article--content blockquote p,
+    .article--footer blockquote p {
+      line-height: 42px; }
+
+.article--divide {
+  border-top: 1px dashed #CDCDCD;
+  width: 100%;
+  height: 0;
+  margin: 96px 0 56px; }
+
+.meta--bread-crumb--link {
+  text-transform: lowercase;
+  text-decoration: none;
+  font-weight: 400; }
 
 .content--header--h1 {
   font-family: "Lato", Arial, sans-serif;
@@ -269,14 +294,76 @@ a {
   line-height: 72px;
   font-weight: 900; }
 
-.content--header--h3 {
+.content--header--h3,
+.footer--header--h3 {
   font-family: "Lato", Arial, sans-serif;
   font-size: 24px;
-  line-height: 32px; }
-  .content--header--h3:after {
-    content: "";
-    display: block;
-    width: 50px;
-    height: 6px;
-    background: #ACACAC;
-    margin: 40px 0 64px; }
+  line-height: 32px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.content--header--h3:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 6px;
+  background: #ACACAC;
+  margin: 40px 0 64px; }
+
+.article--next,
+.article--prev {
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  min-width: 86px;
+  background: none;
+  transition: background .25s, transform .25s; }
+
+.article--next--active,
+.article--prev--active {
+  background: #EEE; }
+
+.article--next {
+  right: 0px; }
+
+.article--prev {
+  left: 0px; }
+
+.article--next--button,
+.article--prev--button {
+  position: absolute;
+  height: auto;
+  top: 50%;
+  width: 100%;
+  height: 200px;
+  padding: 24px 0;
+  transform: translateY(-50%);
+  cursor: pointer; }
+  .article--next--button:hover .next--button--content,
+  .article--prev--button:hover .next--button--content {
+    padding-right: 30px; }
+    .article--next--button:hover .next--button--content #icon--article-next--stroke,
+    .article--prev--button:hover .next--button--content #icon--article-next--stroke {
+      stroke: #000; }
+  .article--next--button:hover .prev--button--content,
+  .article--prev--button:hover .prev--button--content {
+    padding-left: 30px; }
+    .article--next--button:hover .prev--button--content #icon--article-prev--stroke,
+    .article--prev--button:hover .prev--button--content #icon--article-prev--stroke {
+      stroke: #000; }
+
+.next--button--content,
+.prev--button--content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: paddding .25s, padding-left .25s, padding-right .25s; }
+
+.next--button--content {
+  right: 0;
+  padding: 0 60px 0 30px; }
+
+.prev--button--content {
+  left: 0;
+  padding: 0 30px 0 60px; }

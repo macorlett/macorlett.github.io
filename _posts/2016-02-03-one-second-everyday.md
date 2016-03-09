@@ -2,6 +2,7 @@
 layout: post
 date: 2016-02-03
 title: One second everyday
+sub-header: '25 times more potent that just an image.'
 ---
 
 ### 25 times more potent that just an image.

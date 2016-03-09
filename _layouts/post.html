@@ -1,34 +1,50 @@
 ---
 layout: default
 ---
-<header class="post--header">
-	<div class="post--bread-crumb">
-	<a class="post--bread-crumb--link" href="{{ site.url }}">oneradguy.com</a> <i class="fa fa-angle-double-right"></i> {{ page.title }}
+
+<div class="article--wrapper">
+	
+	<article class="article--content">
+
+		<div class="article--content--meta">
+			<!-- bread crumb and meta data stuff goes here. -->
+			<a class="meta--bread-crumb--link" href="{{ site.url }}">michaelcorlett.me</a>
+			<i class="fa fa-angle-double-right"></i>
+			<a class="meta--bread-crumb--link" href="{{ page.url }}">{{ page.title }}</a>
+		</div>
+		
+		<div role="heading" class="article--content--header">
+			<h1 class="content--header--h1">{{ page.title }}</h1>
+			<h3 class="content--header--h3">{{ page.sub-header }}</h3>
+		</div>
+
+		{{ content }}
+
+	</article>
+
+	<div class="article--divide"></div>
+
+	<div class="article--footer">
+		<h3 class="footer--header--h3">Want to continue the conversation?</h3>
+		<p>
+			Me too! Just hit me up on twitter <a href="{{ 'https://twitter.com/' | append: site.twitter }}">{{ '@' | append: site.twitter }}</a> if you are keen to keep the conversation going. I'm always interested in hearing what other's have to say.
+		</p>
+	</div>
+
 </div>
 
-<div class="post--date">
-	{{ page.date | date: "%A %-d %B, %Y"}}
+<div class="article--next">
+	<div class="article--next--button js--article--next">
+		<div class="next--button--content">
+			<img src="{{ '/img/icon--article-next.svg' | prepend: site.url }}">
+		</div>
+	</div>
 </div>
-</header>
 
-<article class="post">
-
-<h1>{{ page.title }}</h1>
-
-{{ content }}
-
-</article>
-
-{% if page.previous or page.next %}
-<nav class="post--pagination">
-	{% if page.previous %}
-	<a class="post--link--prev" href="{{ page.previous.url }}"><i class="fa fa-long-arrow-left"></i><span>{{ page.previous.title }}</span></a>
-	{% endif %}
-
-	{% if page.next %}
-	<a class="post--link--next" href="{{ page.next.url }}"><span>{{ page.next.title }}</span><i class="fa fa-long-arrow-right"></i></a>
-	{% endif %}
-</nav>
-{% endif %}
-
-{% include _post-footer.html %}
+<div class="article--prev">
+	<div class="article--prev--button js--article--prev">
+		<div class="prev--button--content">
+			<img src="{{ '/img/icon--article-prev.svg' | prepend: site.url }}">
+		</div>
+	</div>
+</div>

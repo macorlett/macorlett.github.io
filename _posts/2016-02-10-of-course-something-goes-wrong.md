@@ -2,9 +2,8 @@
 layout: post
 date: 2016-02-10
 title: "Of course something goes wrong"
+sub-header: 'And always when I try to commit to something.'
 ---
-
-### And always when I try to commit to something.
 
 As if almost by magic, I say I want to write every day and my computer starts to act up<!-- excerpt ends -->. It's currently in the shop getting repaired now. I would have done it myself but it's a Macbook Pro so I'd best let apple deal with it. Not that I think I couldn't, it's more because it would take me longer to get the things I need than if I just get them to do it.
 

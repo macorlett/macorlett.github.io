@@ -107,10 +107,6 @@
 				stroke: #000;
 			}
 		}
-		span{
-			width: auto;
-			opacity: 1;
-		}
 	}
 }
 .next--button--content,
@@ -119,12 +115,6 @@
 	top: 50%;
 	transform: translateY(-50%);
 	transition: paddding .25s, padding-left .25s, padding-right .25s;
-	span{
-		display: inline-block;
-		width: 0;
-		opacity: 0;
-		transition: opacity .25s, width .25s;
-	}
 }
 .next--button--content{
 	right: 0;

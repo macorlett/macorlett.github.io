@@ -42,12 +42,13 @@
 }
 .article--content--meta{
 	margin-bottom: 96px;
+	.meta--bread-crumb--link{
+		text-transform: lowercase;
+		text-decoration: none;
+		font-weight: 400;
+	}
 }
-.meta--bread-crumb--link{
-	text-transform: lowercase;
-	text-decoration: none;
-	font-weight: 400;
-}
+
 .content--header--h1{
 	font-family: $type-stack-sans-serif;
 	font-size: 72px;

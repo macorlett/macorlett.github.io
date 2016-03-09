@@ -80,16 +80,22 @@
 	height: auto;
 	top: 50%;
 	width: 100%;
-	height: 100px;
+	height: 200px;
 	padding: 24px 0;
 	transform: translateY(-50%);
 	cursor: pointer;
 	&:hover{
 		.next--button--content{
 			padding-right: 30px;
+			svg #icon--article-next--stroke{
+				stroke: #000;
+			}
 		}
 		.prev--button--content{
 			padding-left: 30px;
+			svg #icon--article-prev--stroke{
+				stroke: #000;
+			}
 		}
 	}
 }

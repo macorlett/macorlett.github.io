@@ -7,6 +7,7 @@ dribbble: macorlett
 
 # baseurl:"http://michaelcorlett.me"
 url: "http://michaelcorlett.me"
+# url: "http://127.0.0.1:4000"
 
 # gems
 gems: [jekyll-paginate]

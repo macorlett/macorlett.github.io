@@ -80,6 +80,7 @@
 .article--prev{
 	z-index: $index-1;
 	position: fixed;
+	display: none;
 	top: 0px;
 	bottom: 0px;
 	min-width: 86px;
@@ -115,11 +116,20 @@
 			#icon--article-next--stroke{
 				stroke: #000;
 			}
+			span{
+				right: 150%;
+				opacity: 1;
+				visibility: visible;
+				transition: right .25s, opacity .5s, visibility 0s;
+			}
 		}
 		.prev--button--content{
 			padding-left: 30px;
-			#icon--article-prev--stroke{
-				stroke: #000;
+			span{
+				left: 150%;
+				opacity: 1;
+				visibility: visible;
+				transition: left .25s, opacity .5s, visibility 0s;
 			}
 		}
 	}
@@ -130,12 +140,56 @@
 	top: 50%;
 	transform: translateY(-50%);
 	transition: paddding .25s, padding-left .25s, padding-right .25s;
+	span{
+		h5{
+			color: $color-black;
+			margin: 0;
+			padding: 0;
+		}
+		-webkit-pointer-events: none;
+		pointer-events: none;
+		display: none;;
+		position: absolute;
+		width: 150px;
+		top: 50%;
+		font-family: $type-stack-sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		color: #ACACAC;
+		opacity: 0;
+		transform: translateY(-50%);
+		visibility: hidden;
+		transition: left .25s, right .25s, opacity .5s, visibility 0s .5s;
+	}
 }
 .next--button--content{
 	right: 0;
 	padding: 0 60px 0 30px;
+	span{
+		right: 60%;
+		text-align: right;
+	}
 }
 .prev--button--content{
 	left: 0;
 	padding: 0 30px 0 60px;
+	span{
+		left: 60%;
+		text-align: left;	
+	}
+}
+
+@media screen and (min-width: 900px){
+	.article--prev,
+	.article--next{
+		display: block;
+	}
+}
+@media screen and (min-width: 1100px){
+	.next--button--content,
+	.prev--button--content{
+		span{
+			display: block;
+		}
+	}
 }

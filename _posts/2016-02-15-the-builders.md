@@ -17,8 +17,8 @@ You would listen,
 I would draw,  
 together we would create worlds.  
 Now I wage my own wars,  
-Fueled by passion, we both shared.   
-Though words still escape me,   
+Fueled by passion, we both shared.
+Though words still escape me,
 that universe still grows.  
 The page, it's window.   
 The pen, it's sword.  
